@@ -1,0 +1,187 @@
+/*@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  background-color: #f36c37;
+  color: white;
+  font-family: 'Montserrat';
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+}
+
+.program-title {
+  color: white;
+  line-height: 1;
+  margin: 30px 0;
+  display: table;
+}
+
+.program-title .progress-title-light {
+  font-weight: lighter;
+  font-size: 42px;
+  text-align: left;
+}
+
+.progress-title-edition {
+  font-size: 15px;
+  text-align: left;
+  background-color: #C4572C;
+  text-align: center;
+  padding: 6px 18px;
+  float:left;
+  margin-left:20px;
+}
+
+.program-title .progress-title-bold {
+  font-weight: bold;
+  font-size: 84px;
+  text-align: left;
+}
+
+.program-title .progress-title-border {
+  color: #F36C37;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.program-sign-in a {
+  text-decoration: none;
+  color: white;
+  width: 437px;
+  height: 100px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  padding: 15px 30px;
+  height: 65px;
+}
+
+.content-block {
+  max-width: 1080px;
+  width: 100%;
+  margin: 100px auto 0 auto;
+}
+
+.logo-fcamara {
+  width: 266.5px;
+  height: 58.31px;
+}
+
+.desktop-image {
+  display: none;
+}
+
+.sobre {
+  text-align:center;
+  width: 800px;
+  right:40px;
+  position: absolute;
+}
+
+.program-sign-in-2 a {
+  text-decoration: none;
+  color: white;
+  width: 437px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 30px;
+  height: 65px;
+  background-color:#f36c37;
+}
+
+.circulo {
+  border-style: solid;
+  border-color: white;
+  border-radius: 90px;
+  border-width: 4px;
+  font-size: 45px;
+  text-align: center;
+  padding-top:18px;
+  width: 112px;
+  height: 112px;
+  margin: 0 30px;
+  background-color: #f36c37;
+}
+.trilhas{
+  margin: 17px;
+  text-align:center;
+}
+.trilhas h3 {
+font-weight: bold;
+  font-size: 30px;
+}
+.trilhas p{
+  font-size: 15px;
+}
+.etapa-circulo {
+  float:left;
+
+}
+.etapa-circulo h4 {
+  padding-top:20px;
+}
+
+.line {
+  position: absolute;
+  width: 800px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  top: 33px;
+  left: 120px;
+  z-index: -1;
+}
+
+
+
+
+@media (min-width: 1550px) {
+  .desktop-image {
+    display: block;
+  }
+
+  .program-title .progress-title-light {
+    font-size: 30px;
+  }
+
+  .progress-title-edition {
+
+  }
+}
+
+@media (max-width: 1550px) {
+
+  .program-title .progress-title-light {
+    font-size: 30px;
+  }
+
+  .progress-title-edition {
+    font-size: 10px;
+  }
+
+  .program-title .progress-title-bold {
+    font-size: 60px;
+  }
+
+  .program-sign-in a {
+    font-size: 20px;
+  }
+
+  .line{
+    display: none;
+  }
+  .step-circulo {
+    margin: 0 102px;
+  }
+}
