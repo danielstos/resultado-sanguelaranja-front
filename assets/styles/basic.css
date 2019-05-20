@@ -33,7 +33,7 @@ body {
   text-align: center;
   padding: 6px 18px;
   float:left;
-  margin-left:20px;
+  margin-left:40px;
 }
 
 .program-title .progress-title-bold {
@@ -68,6 +68,7 @@ body {
   max-width: 1080px;
   width: 100%;
   margin: 100px auto 0 auto;
+
 }
 
 .logo-fcamara {
@@ -80,10 +81,11 @@ body {
 }
 
 .sobre {
-  text-align:center;
+  text-align: center;
   width: 800px;
-  right:40px;
+
   position: absolute;
+
 }
 
 .program-sign-in-2 a {
@@ -143,10 +145,28 @@ font-weight: bold;
   z-index: -1;
 }
 
+.sobre-o-programa{
+  background-color:#573791;
+  position:relative;
+  height:620px;
+padding-left:650px;
+}
+
+footer p{
+font-size:13px;
+text-align: left;
+
+}
+footer h3,h2{
+text-align: left;
+font-size:15px;
+font-weight: bold;
+margin-top:40px;
+
+}
 
 
-
-@media (min-width: 1550px) {
+@media (min-width:1551px) {
   .desktop-image {
     display: block;
   }
@@ -156,11 +176,11 @@ font-weight: bold;
   }
 
   .progress-title-edition {
-
+white:unset;
   }
 }
 
-@media (max-width: 1550px) {
+@media (max-width:1550px) {
 
   .program-title .progress-title-light {
     font-size: 30px;
@@ -168,20 +188,41 @@ font-weight: bold;
 
   .progress-title-edition {
     font-size: 10px;
+
   }
 
   .program-title .progress-title-bold {
-    font-size: 60px;
+    font-size:30px;
   }
 
   .program-sign-in a {
     font-size: 20px;
   }
+.sobre{
+  width:unset;
+  padding: 0 5px;
 
+
+}
   .line{
     display: none;
   }
   .step-circulo {
     margin: 0 102px;
+
   }
+
+  .content-block {
+    padding: 0 30px;
+    right: 50px;
+  }
+
+    .sobre-o-programa{
+      height:1000px;
+      padding: 0 2px;
+
+    }
+    footer{
+      height: 800px;
+    }
 }
