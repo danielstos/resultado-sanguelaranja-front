@@ -2,7 +2,7 @@
   font-family: 'Montserrat-Regular';
   src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
 }*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800&display=swap');
 
 body {
   background-color: #f36c37;
@@ -21,9 +21,10 @@ body {
 }
 
 .program-title .progress-title-light {
-  font-weight: lighter;
+  font: bold;
   font-size: 42px;
   text-align: left;
+  min-height:  600px;
 }
 
 .progress-title-edition {
@@ -36,10 +37,13 @@ body {
   margin-left:40px;
 }
 
-.program-title .progress-title-bold {
+.program-title .progress-title-bold{
+ 
   font-weight: bold;
-  font-size: 84px;
-  text-align: left;
+  font-size: 80px;
+  
+
+
 }
 
 .program-title .progress-title-border {
@@ -48,7 +52,8 @@ body {
   -webkit-text-stroke-color: white;
 }
 
-.program-sign-in a {
+.program-sign-in a{
+  
   text-decoration: none;
   color: white;
   width: 437px;
@@ -61,19 +66,30 @@ body {
   font-size: 29px;
   text-align: center;
   padding: 15px 30px;
-  height: 65px;
+  cursor: pointer;
+  
+  
 }
 
+
+.content-bloc {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 10px 0 0;
+ 
+}
 .content-block {
   max-width: 1080px;
   width: 100%;
-  margin: 100px auto 0 auto;
+  margin: 48px auto 60px auto;
 
+ 
 }
 
 .logo-fcamara {
-  width: 266.5px;
-  height: 58.31px;
+  width: 200px;
+  height: 40px;
+  
 }
 
 .desktop-image {
@@ -83,23 +99,33 @@ body {
 .sobre {
   text-align: center;
   width: 800px;
-
   position: absolute;
-
+  margin: 10px;
+  padding: 0 90px;
+}
+.sobre h2{
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
 }
 
-.program-sign-in-2 a {
+
+
+
+.program-sign-in-2 a{
+ 
   text-decoration: none;
   color: white;
   width: 437px;
-  height: 100px;
+  height: 65px;
   font-weight: bold;
   font-size: 29px;
   text-align: center;
   border-radius: 10px;
   padding: 15px 30px;
-  height: 65px;
   background-color:#f36c37;
+  cursor: pointer;
+ 
 }
 
 .circulo {
@@ -148,8 +174,15 @@ font-weight: bold;
 .sobre-o-programa{
   background-color:#573791;
   position:relative;
-  height:620px;
-padding-left:650px;
+  height:900px;
+ padding-left:750px;
+ 
+
+
+}
+.etapa2{
+ text-align:center;
+
 }
 
 footer p{
@@ -166,44 +199,54 @@ margin-top:40px;
 }
 
 
-@media (min-width:1551px) {
+
+
+@media (min-width:1001px) {
   .desktop-image {
     display: block;
   }
 
   .program-title .progress-title-light {
     font-size: 30px;
+    text-align: center;
+   
   }
 
   .progress-title-edition {
-white:unset;
+  white:unset;
   }
 }
 
-@media (max-width:1550px) {
+@media (max-width:1000px) {
 
   .program-title .progress-title-light {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .progress-title-edition {
     font-size: 10px;
 
   }
-
-  .program-title .progress-title-bold {
-    font-size:30px;
+  .sobre h2{
+    font-size:15px;
   }
-
+  .program-title .progress-title-bold {
+    font-size:45px;
+    text-align: center;
+  }
+  .program-sign-in-2 a{
+    font-size: 20px;
+  }
   .program-sign-in a {
     font-size: 20px;
   }
 .sobre{
+
   width:unset;
   padding: 0 5px;
-
-
+line-height: 20px
 }
+
   .line{
     display: none;
   }
@@ -211,17 +254,25 @@ white:unset;
     margin: 0 102px;
 
   }
-
+  
   .content-block {
     padding: 0 30px;
     right: 50px;
   }
 
-    .sobre-o-programa{
+    .sobre-o-programa {
+    
       height:1000px;
       padding: 0 2px;
-
+     
     }
+    .etapa2{
+      text-align:center;
+   
+     }
+     
+    
+  
     footer{
       height: 800px;
     }
